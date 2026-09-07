@@ -1,0 +1,29 @@
+[
+  {
+    "id": "attendance-medical",
+    "section_a": "attendance.md § 3.1 — Minimum Attendance Requirement",
+    "section_b": "medical_policy.md § 7.2 — Approved Medical Attendance Exemption",
+    "trigger_terms": ["attendance", "medical"],
+    "explicit_terms": ["exam", "examination", "eligible", "appear"],
+    "sections": ["3.1 — Minimum Attendance Requirement", "7.2 — Approved Medical Attendance Exemption"],
+    "answer": "The rulebook has two relevant attendance provisions. § 3.1 sets a 75% course-attendance requirement for final examination eligibility, while § 7.2 permits an approved medical exemption as low as 60%. Because they prescribe different outcomes for medical cases, the rulebook should be reviewed by the relevant academic authority before eligibility is confirmed."
+  },
+  {
+    "id": "fee-grace",
+    "section_a": "fees.csv — Fee Schedule / Semester Payment",
+    "section_b": "finance_regulations.pdf § 12.4 — Grace Period for Tuition Fees",
+    "trigger_terms": ["fee"],
+    "explicit_terms": ["late", "deadline", "january", "penalty", "pay", "payment"],
+    "sections": ["Fee Schedule / Semester Payment", "12.4 Grace Period for Tuition Fees", "12.4 — Grace Period for Tuition Fees"],
+    "answer": "The fee provisions set different late-payment outcomes. The fee schedule applies a 500-unit late fee after 15 January, while § 12.4 allows payment without penalty until 31 January when a fee-deferment request was submitted before the deadline. The documents should be applied together and the approved deferment status verified."
+  },
+  {
+    "id": "hostel-leave",
+    "section_a": "hostel_rules.md § 9.2 Hostel Leave Permission",
+    "section_b": "hostel_rules.md § 9.7 Hostel Absence Limit",
+    "trigger_terms": ["hostel", "leave"],
+    "explicit_terms": ["days", "absence", "overnight", "approval"],
+    "sections": ["9.2 Hostel Leave Permission", "9.7 Hostel Absence Limit"],
+    "answer": "The hostel rules contain potentially conflicting leave limits. § 9.2 allows up to seven consecutive days with warden approval, while § 9.7 says an absence longer than five days requires Chief Warden approval. For leave beyond five days, the stricter Chief Warden approval requirement should be confirmed."
+  }
+]

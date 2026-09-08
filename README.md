@@ -98,20 +98,24 @@ Build the local retrieval index:
 python scripts/build_index.py
 ```
 
-Start the FastAPI backend:
+### Start the project
+
+After activating the Python virtual environment, start both the FastAPI backend and React frontend with one command:
 
 ```bash
-uvicorn app.main:app --reload --port 8000
+npm run start
 ```
 
-In a second terminal, install and start the existing frontend:
+This starts:
 
-```bash
-pnpm install
-pnpm dev
-```
+- FastAPI backend on `http://127.0.0.1:8000`
+- React/Vite frontend on `http://localhost:8080`
 
-Open the Vite URL, normally `http://localhost:8080`. The frontend uses `http://127.0.0.1:8000` by default. To use another backend URL, set `VITE_API_BASE_URL` before starting Vite.
+Open the frontend at:
+
+`http://localhost:8080`
+
+The frontend uses `http://127.0.0.1:8000` by default. To use another backend URL, set `VITE_API_BASE_URL` before starting the project.
 
 ## API examples
 

@@ -193,6 +193,12 @@ Semantic embedding model unavailable. Using TF-IDF fallback.
 
 The `/health` response exposes the active mode. The fallback is local and keeps the app usable offline. The generated `data/index.json` is ignored so each machine can build an index using its available mode.
 
+## What is mocked
+
+The rulebook corpus is not mocked. The application loads the real local Markdown, PDF, and CSV files from the `data/` folder.
+
+No external LLM API is required for the normal setup. If an LLM API is not configured, the project uses its local deterministic answer-generation fallback.
+
 ## Limitations
 
 This is a one-day student project, not a legal or official university decision system. The answer generator is grounded in retrieved passages and the app does not infer policies that are absent from the corpus. Policy owners should review the sample regulations before using the project with real students.
